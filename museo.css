@@ -1,0 +1,105 @@
+/* Archivo styles.css */
+
+/* Estilo general del cuerpo */
+body {
+    background-color: #faf3e0;
+    color: #333;
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Estilo del encabezado */
+#encabezado {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 1.5em; /* Ajuste de tamaÃ±o del tÃ­tulo */
+}
+
+/* Clase para resaltar texto */
+.resaltar {
+    color: #8d7b51;
+    font-weight: bold;
+}
+
+/* Estilo de las secciones */
+.seccion {
+    background-color: #fdf5e6;
+    border: 2px solid #e0c3a2;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo alternativo para secciones */
+.seccion-alternativa {
+    background-color: #f7e6d4; /* Color alternativo */
+    border: 2px solid #d3b8a6;
+}
+
+/* GalerÃ­a de imÃ¡genes */
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    gap: 20px;
+}
+
+/* Elementos dentro de la galerÃ­a */
+#galeria .item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Estilo de las imÃ¡genes */
+#galeria img {
+    width: 200px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* Pie de imagen */
+.pie-imagen {
+    text-align: left;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    color: #555;
+    width: 60%; /* Ajusta el ancho del texto */
+}
+
+/* Estilo para la imagen de arquitectura */
+#arquitectura img {
+    width: 70%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Estilo para el pie de pÃ¡gina */
+#pie-de-pagina {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+} 
